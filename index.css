@@ -203,3 +203,25 @@ h2{
     justify-content: space-between;
 }
 
+.box2{
+    background-image: url("lastbackground.png");
+    display:flex;
+    flex-direction: column;
+    padding-top: 30px;
+  
+}
+
+.box3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+
+#socials{
+    display:flex;
+    justify-content: space-around;
+}
