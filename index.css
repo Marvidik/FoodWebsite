@@ -1,0 +1,32 @@
+nav {
+    display:flex;
+    color:black;
+    padding: 10px;
+    margin-left: 113px;
+    margin-right: 113px;
+    margin-bottom: 80px;
+    margin-top: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1, nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: rgba(25, 24, 37, 0.75);
+    text-decoration: none;
+}
