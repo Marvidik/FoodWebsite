@@ -4,7 +4,7 @@ nav {
     padding: 10px;
     margin-left: 113px;
     margin-right: 113px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     margin-top: 18px;
     justify-content: space-between;
     align-items: center;
@@ -24,9 +24,182 @@ ul {
 li {
     display: inline-block;
     margin-right: 20px;
+    padding-left: 40px;
 }
 
 a {
     color: rgba(25, 24, 37, 0.75);
     text-decoration: none;
 }
+
+
+#logo{
+    height: 50px;
+}
+
+.box1{
+    background-image: url("Backgroundimage.png");
+    display:flex;
+    flex-direction: column;
+    padding-top: 30px;
+  
+}
+
+h3{
+    color: #F6F6F6;
+    text-align: center;
+    /* H3 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 137.931% */
+    letter-spacing: 0.2px;
+    margin:0px;
+}
+
+h4{
+    color: #F6F6F6;
+    text-align: center;
+
+    /* H4 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+    margin:0px;
+}
+
+h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 81.818% */
+    letter-spacing: 0.1px;
+    margin-top: 0px;
+}
+
+#h2-center{
+    text-align:center;
+    margin-top:50px;
+}
+
+#store-buts{
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#playstore-but{
+    height: 44px;
+    width:136px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+    border:0px;
+    margin-right: 20px;
+}
+
+#appstore-but{
+    height: 44px;
+    width:136px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color:white;
+    margin-left: 20px;
+}
+
+#phone{
+    margin-bottom: 0px;
+    height: 630px;
+}
+
+#phone1{
+    position:relative;
+    left:250px;
+    bottom:260px;
+    margin-bottom: 0px;
+}
+
+#phone2{
+    position:relative;
+    left:10px;
+    bottom:360px;
+    margin-bottom: 0px;
+}
+
+#colored-h3{
+    color: #FA4A0C;
+
+    /* H3 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+    text-align: flex-start;
+    margin:0px;
+}
+
+#colored-h2{
+    color: var(--text, #252B42);
+    /* H2 */
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+    margin:0px;
+}
+
+#colored-h4{
+    color: var(--second-text, #737373);
+    /* H4 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+    text-align: flex-start;
+    margin:0px;
+}
+
+#create-account{
+    display: flex;
+}
+
+#create-account-info{
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    width:500px;
+    justify-content: flex-end;
+}
+
+#home{
+    display:flex;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
