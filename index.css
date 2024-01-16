@@ -225,3 +225,55 @@ h2{
     display:flex;
     justify-content: space-around;
 }
+
+
+@media (max-width:600px){
+    body{
+        
+    }
+    .box1{
+        flex-direction: column;
+        background-image: none;
+
+    }
+    #logo{
+        
+    }
+    h3{
+        color: var(--second-text, #737373);
+        text-align: center;
+        /* H3 */
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; /* 150% */
+        letter-spacing: 0.1px;
+    }
+    
+    h1{
+        color:#000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px; /* 137.931% */
+        letter-spacing: 0.2px;
+        margin:0px;
+    }
+    
+    h4{
+        text-align: center;
+        color: var(--second-text, #737373);
+        /* H4 */
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px; /* 158.333% */
+        letter-spacing: 0.2px;
+        margin:0px;
+    }
+    
+}
