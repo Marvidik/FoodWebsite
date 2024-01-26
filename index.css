@@ -228,16 +228,10 @@ h2{
 
 
 @media (max-width:600px){
-    body{
-        
-    }
     .box1{
         flex-direction: column;
         background-image: none;
 
-    }
-    #logo{
-        
     }
     h3{
         color: var(--second-text, #737373);
